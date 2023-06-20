@@ -1,0 +1,290 @@
+.topbutton {
+  width:100px;
+  border:2px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:10px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  cursor:pointer;
+  color:#333;
+  font-family:verdana;
+  font-size:12px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  }
+  .topbutton img{
+    width: 30%;
+  }  
+
+/* Медиа-запросы(о нет) и адаптейшен */
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+  }
+  
+ @media (min-width: 1024px) and (max-width: 1130px) {
+    main{
+      padding: 0;
+    }
+    .footer{
+      padding: 0;
+    }
+    .footer-media{
+      padding-left: 5%;
+    }
+  }
+
+   @media (min-width: 950px) and (max-width: 1024px) {
+    main{
+      padding: 0;
+    }
+    .footer{
+      padding: 0;
+    }
+    .icon-two-wrapper-one {
+      display: none;
+    }
+    .main-img{
+      width: 320px;
+      height: 285px;
+      border-radius: 40px;
+      margin-left: 40%;
+      margin-top: 15%;
+    }
+    .clicks-block{
+      margin-bottom: 55px;
+      margin-left: 35%;
+      height: 34px;
+      width: 250px;
+      background-color: #A3E3FF;
+      text-align: center;
+      line-height: 34px;
+    }
+    .main-p{
+      margin-top: 40px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      text-transform: lowercase;
+      color: #000000;
+      margin-left: 20%;
+    }
+    .main-title{
+      margin-left: 10%;
+      width: 500px;
+    }
+   }
+
+  @media (min-width: 460px) and (max-width: 900px){
+    .compani-content{
+      display: flex;
+      flex-direction: column;
+    }
+    .center{
+      display: block;
+      margin: 0 auto;
+    }
+    
+  }
+  @media (min-width: 280px) and (max-width: 460px) {
+    .center img{
+      width: 320px;
+      height: 300px;
+      border-radius: 40px;
+    }
+  }
+
+
+@media (min-width: 280px) and (max-width: 950px){
+  main{
+    padding: 0;
+  }
+  .company{
+    display: block;
+    margin: 0 auto;
+  }
+  .route {
+    display: flex;
+    flex-direction: column;
+}
+
+  .main-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-title{
+    margin: 10px;
+    width: 280px;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .clicks-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 34px;
+    width: 250px;
+    background-color: #A3E3FF;
+    text-align: center;
+    line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-p{
+    width: 280px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-img{
+    display: none;
+  }
+  .main-img-back {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 185px;
+    border-radius: 40px;
+  }
+  .footer-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-icon{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .icon-two{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sunset{
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-media{
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-menu{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .none{
+    display: none;
+  }
+  .compani-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .center{
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 280px) and (max-width: 750px){
+  .contact-info{
+    flex-direction: column;
+  }
+  .company-text{
+    display: block;
+    margin: 0 auto;
+  }
+  .company-text-o{
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+  }
+
+  .paggington img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 225px;
+    border-radius: 40px;
+  }
+}
+
+
+  @media (max-width: 950px) {
+  .menu-button-container {
+    display: flex;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #ffffff;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .menu li:hover{
+    background-color: #A3E3FF;
+    font-size: larger;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+  }
+  .menu > li > a:hover{
+    border-bottom: 2px solid #A3E3FF;
+  }
+  }
